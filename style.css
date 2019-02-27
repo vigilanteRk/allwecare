@@ -51,6 +51,7 @@ h1, h2 {
   }
 
   h3 {
+    font-size: 3rem;
     color: #fff;
     -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
     -moz-animation: neon1 1.5s ease-in-out infinite alternate;
