@@ -1,0 +1,77 @@
+
+body{
+    background-color: #263238; 
+    background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+    color: #FAFAFA;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif,'IBM Plex Sans Condensed';
+  	margin: auto;
+}
+
+.firsthead{
+    margin: 5em;
+}
+
+h1, h2 {
+  letter-spacing: 8px;
+  color: #fff;
+}
+
+
+.firsthead > section > h1 {
+	font-size: 2.6rem;
+	line-height: unset;
+  color: #3498DB;
+}
+
+.firsthead > section >  h2 {
+  margin-top: 1px;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+.form-signin input[type="email"] {
+    /* margin-bottom: 3px; */
+    border-radius: 10;
+  }
+
+  .btn{
+      margin-top: 1rem;
+      background-color: #2ECC71;
+      color: #ffffff;
+  }
+
+  h3 {
+    color: #fff;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+  
+  h3:hover {
+    color: #FF1177;
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+  }
+  
+  
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #E74C3C, 0 0 70px #E74C3C, 0 0 80px #E74C3C, 0 0 100px #E74C3C, 0 0 150px #E74C3C;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #117864, 0 0 35px #117864, 0 0 40px #117864, 0 0 50px #117864, 0 0 75px #117864;
+  }
+}
+
+
